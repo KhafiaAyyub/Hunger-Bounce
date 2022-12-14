@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+ 
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+
+.container{
+    display: grid ;
+    height: 100%;
+    grid-template-columns: 250px 1fr 300px ;
+    overflow: hidden;
+}
+
+/* menu design */
+#menu{
+    background: rgb(68, 76, 139);
+}
+
+.menu-item a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding:  8px 30px;
+    margin: 12px 0;
+    color:rgb(181, 190, 204);
+    font-weight: 300;
+}
+
+.menu-item a:hover{
+    background: rgb(120, 163, 199);
+}
+
+
+#food-container{
+    background: coral;
+}
+
+#cart{
+    background: lavender;
+}
