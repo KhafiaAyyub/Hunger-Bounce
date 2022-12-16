@@ -40,7 +40,146 @@ body{
 
 
 #food-container{
-    background: coral;
+    background: rgb(208, 210, 223);
+    overflow: scroll;
+    overflow-x:hidden;
+    box-sizing:content-box;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    position: sticky;
+    top:0;
+    background: rgb(143, 143, 143);
+    z-index:1;
+}
+
+::-webkit-scrollbar{
+    display:none;
+}
+
+#header .address{
+    font-size:20px;
+}
+
+.your-address{
+    border:1px solid rgb(87, 130, 160);
+    color: rgb(20, 20, 112);
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    cursor:pointer;
+}
+
+.add-box i{
+    font-size:20px;
+}
+
+.util i,.user i{
+    font-size: 18px;
+    margin: 0 16px;
+    border: 1px solid rgb(20, 103, 220);
+    padding: 8px 16px;
+    color: rgb(28, 47, 110);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.util i:active{
+    color: white;
+    background: rgb(114, 189, 218);
+}
+
+#biryani,#paneer,#chicken,#vegetable,#chinese,#south-indian,#drinks{
+    margin-top: 40px;   
+}
+
+#paneer #item-card,#vegetable #item-card{
+    background: rgb(218, 253, 188);
+}
+
+#chinese #item-card,#south-indian #item-card{
+    background: rgb(221, 243, 243);
+}
+
+#category-name,.item-menu{
+    margin: 10px;
+    font-size: 35px;   
+    color: rgb(60, 100, 164);
+    font-family: 'Aclonica', sans-serif;
+}
+
+#item-card:hover img{
+    transform: scale(1.2);
+}
+
+#card-top{
+    display: flex;
+    margin: 5px 0;
+    justify-content: space-between;
+}
+
+#rating{
+    padding: 7px;
+    color: goldenrod;
+    background: black;
+    font-size: 14px;
+    border-radius: 15px;
+}
+
+.fa-heart-o{
+    padding: 6px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+}
+
+.toggle-heart{
+background: rgb(0, 94, 255);
+color: white; 
+}
+
+#item-card img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
+    transition: 0.5s all ease-in-out;
+}
+
+#item-name{
+    margin: 5px 0;
+    font-weight: 600;
+    color: darkslategray;
+    font-size: 18px;
+}
+
+#item-price{
+    margin: 0;
+    color: rgb(2, 27, 27);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#item-card{
+    width: 200px;
+    height: 250px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    background: rgb(124, 173, 208);
+    cursor: pointer;
+    transition: 0.5s all step-end;
 }
 
 #cart{
