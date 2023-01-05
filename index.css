@@ -30,7 +30,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #27ae60;
+  background: #4b5cae;
   border-radius: 5rem;
 }
 
@@ -46,7 +46,7 @@ section {
 .heading span {
   font-family: 'Satisfy', cursive;
   font-size: 3rem;
-  color: #27ae60;
+  color: #4b5cae;
 }
 
 .heading h3 {
@@ -61,12 +61,12 @@ section {
   font-size: 1.7rem;
   cursor: pointer;
   color: #fff;
-  background: #2766ae;
+  background: #4b5cae;
   border-radius: .5rem;
 }
 
 .btn:hover {
-  background: #2CA44A;
+  background: #379aac;
 }
 
 .header {
@@ -99,7 +99,7 @@ section {
 
 .header .logo i {
   padding-right: .5rem;
-  color: #27ae60;
+  color: #379aac;
 }
 
 .header .navbar a {
@@ -109,7 +109,7 @@ section {
 }
 
 .header .navbar a:hover {
-  color: #27ae60;
+  color: #379aac;
 }
 
 .header .icons div {
@@ -127,7 +127,7 @@ section {
 
 .header .icons div:hover {
   color: #fff;
-  background: #27ae60;
+  background: #379aac;
 }
 
 #menu-btn {
@@ -195,7 +195,7 @@ section {
 }
 
 .search-form-container form label:hover {
-  color: #27ae60;
+  color: #379aac;
 }
 
 .shopping-cart-container {
@@ -276,7 +276,7 @@ section {
 }
 
 .shopping-cart-container .products-container .box-container .box .fa-times:hover {
-  color: #27ae60;
+  color: #379aac;
 }
 
 .shopping-cart-container .products-container .box-container .box img {
@@ -294,7 +294,7 @@ section {
 }
 
 .shopping-cart-container .products-container .box-container .box .content span.price {
-  color: #27ae60;
+  color: #379aac;
   font-size: 1.7rem;
 }
 
@@ -325,7 +325,7 @@ section {
 }
 
 .shopping-cart-container .cart-total .box h3 span {
-  color: #27ae60;
+  color: #379aac;
 }
 
 .login-form-container {
@@ -404,7 +404,7 @@ section {
 }
 
 .login-form-container form p a {
-  color: #27ae60;
+  color: #379aac;
 }
 
 .login-form-container form p a:hover {
@@ -434,7 +434,7 @@ section {
 
 .home .content span {
   font-size: 2rem;
-  color: #27ae60;
+  color: #379aac;
 }
 
 .home .content h3 {
@@ -487,7 +487,7 @@ section {
 }
 
 .category .box:hover {
-  background: #27ae60;
+  background: #379aac;
 }
 
 .category .box:hover h3 {
@@ -535,7 +535,7 @@ section {
 .about .content span {
   font-family: 'Satisfy', cursive;
   font-size: 3rem;
-  color: #27ae60;
+  color: #379aac;
 }
 
 .about .content .title {
@@ -610,7 +610,7 @@ section {
 }
 
 .popular .box-container .box .fa-heart:hover {
-  color: #27ae60;
+  color: #379aac;
 }
 
 .popular .box-container .box .image {
@@ -669,7 +669,7 @@ section {
 .banner .row-banner .content span {
   font-family: 'Satisfy', cursive;
   font-size: 4rem;
-  color: #27ae60;
+  color: #379aac;
   color: #130f40;
 }
 
@@ -782,7 +782,7 @@ section {
 
 .menu .box-container .box .content .price {
   font-size: 1.8rem;
-  color: #27ae60;
+  color: #379aac;
 }
 
 .order .icons-container {
@@ -903,7 +903,7 @@ section {
 
 .blogs .box-container .box .image h3 i {
   padding-right: .5rem;
-  color: #27ae60;
+  color: #379aac;
 }
 
 .blogs .box-container .box .image img {
@@ -929,11 +929,11 @@ section {
 }
 
 .blogs .box-container .box .content .tags a:hover {
-  color: #27ae60;
+  color: #379aac;
 }
 
 .blogs .box-container .box .content .tags a i {
-  color: #27ae60;
+  color: #379aac;
   padding-right: .5rem;
 }
 
@@ -988,12 +988,12 @@ section {
   padding: 0 2rem;
   font-size: 1.6rem;
   color: #fff;
-  background: #27ae60;
+  background: #379aac;
   cursor: pointer;
 }
 
 .footer .newsletter form input[type="submit"]:hover {
-  background: #2CA44A;
+  background: #379aac;
 }
 
 .footer .box-container {
@@ -1024,7 +1024,7 @@ section {
 }
 
 .footer .box-container .box a:hover {
-  color: #27ae60;
+  color: #379aac;
 }
 
 .footer .box-container .box a:hover i {
@@ -1033,7 +1033,7 @@ section {
 
 .footer .box-container .box a i {
   padding-right: .5rem;
-  color: #27ae60;
+  color: #379aac;
 }
 
 .footer .bottom {
@@ -1053,11 +1053,11 @@ section {
   border-radius: .5rem;
   margin: 0 .3rem;
   color: #fff;
-  background: #27ae60;
+  background: #379aac;
 }
 
 .footer .bottom .share a:hover {
-  background: #2CA44A;
+  background: #379aac;
 }
 
 .footer .bottom .credit {
@@ -1067,7 +1067,7 @@ section {
 }
 
 .footer .bottom .credit span {
-  color: #27ae60;
+  color: #379aac;
 }
 
 @media (max-width: 991px) {
